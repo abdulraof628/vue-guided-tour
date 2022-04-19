@@ -1,7 +1,7 @@
 <template>
   <div
     ref="popoverRef"
-    class="vue-guided-popover"
+    class="vue-guided-popover test"
     :style="popoverStyle"
     v-bind="$attrs"
   >

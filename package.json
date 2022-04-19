@@ -1,5 +1,5 @@
 {
-  "name": "vue-guided-tour",
+  "name": "@anf/vue-guided-tour",
   "description": "a vue.js 3 component to guide your visitors",
   "version": "0.1.0",
   "author": "yaminncco <yaminncco@gmail.com>",
