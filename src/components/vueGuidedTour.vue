@@ -9,6 +9,9 @@
         v-if="useOverlay"
         ref="vgtOverlay"
         :rect="currentStepRect"
+        :allow-overlay-close="allowOverlayClose"
+        :allow-esc-close="allowEscClose"
+        :allow-interaction="allowInteraction"
         v-bind="{ ...currentStep.overlay }"
       />
       <template

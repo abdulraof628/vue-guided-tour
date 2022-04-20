@@ -18,7 +18,6 @@
           "
           :class="`vgo__overlay vgo__overlay--${key}`"
           :style="overlaysRectStyle(key)"
-          @click="onOverlayClick"
         />
       </div>
     </div>
