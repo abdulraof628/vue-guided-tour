@@ -37,13 +37,6 @@
               v-if="closeBtn"
               name="close"
             >
-              <button
-                class="vgt__close-btn"
-                aria-label="close Tour"
-                @click="onCloseClick"
-              >
-                ×
-              </button>
             </slot>
             <div class="vgt__body">
               <slot

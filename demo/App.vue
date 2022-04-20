@@ -4,7 +4,7 @@
       <h1 class="demo-title">
         Vue Guided Tour
       </h1>
-      <p>a vue.js 3 component to guide your visitors</p>
+      <p>a vue.js 3 component to guide your visitors sdas</p>
       <a 
         href="#"
         class="demo-btn"
