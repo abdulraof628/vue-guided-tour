@@ -41,7 +41,6 @@
               <button
                 class="vgt__close-btn"
                 aria-label="close Tour"
-                @click="onCloseClick"
               >
                 ×
               </button>
