@@ -33,11 +33,6 @@
             :auto-adjust="autoAdjust"
             v-bind="{ ...currentStep.popover }"
           >
-            <slot
-              v-if="closeBtn"
-              name="close"
-            >
-            </slot>
             <div class="vgt__body">
               <slot
                 name="content"
@@ -83,7 +78,7 @@
                     class="vgt__btn vgt__btn--primary vgt__end-btn"
                     @click="end"
                   >
-                    End
+                    Got it.
                   </button>
                   <button
                     v-else
