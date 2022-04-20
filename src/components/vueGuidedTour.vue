@@ -9,11 +9,7 @@
         v-if="useOverlay"
         ref="vgtOverlay"
         :rect="currentStepRect"
-        :allow-overlay-close="allowOverlayClose"
-        :allow-esc-close="allowEscClose"
-        :allow-interaction="allowInteraction"
         v-bind="{ ...currentStep.overlay }"
-        @overlay-click="onOverlayClick"
       />
       <template
         v-if="
@@ -41,6 +37,7 @@
               <button
                 class="vgt__close-btn"
                 aria-label="close Tour"
+                @click="onCloseClick"
               >
                 ×
               </button>
